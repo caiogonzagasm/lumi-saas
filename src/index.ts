@@ -1,7 +1,35 @@
-const nome = "Empresa";
-const documento: string = "123456789";
-const ativa: boolean = true;
+interface Empresa {
+    nome: string;
+    documento: string;
+    ativa: boolean;
+}
 
-console.log("Nome da empresa:", nome);
-console.log("Documento da empresa:", documento);
-console.log("Empresa ativa:", ativa);
+const empresa: Empresa = {
+    nome: "Lumi",
+    documento: "123456789",
+    ativa: true
+};
+
+console.log (empresa.nome);
+
+function mostrarEmpresa(empresa: Empresa): void {
+
+    console.log("Nome da empresa: " + empresa.nome);
+
+}
+
+mostrarEmpresa(empresa);
+
+const outraCoisa = {
+    nome: "Outra Coisa",
+    documento: "987654321",
+    ativa: true
+};
+
+function obterNomeEmpresa (empresa: Empresa): string {
+    return empresa.nome;
+}
+
+const nomeObtido = obterNomeEmpresa(empresa);
+
+console.log(nomeObtido);
