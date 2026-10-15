@@ -1,3 +1,3 @@
 Lumi
 SaaS de gestão
-Desenvolvido em java
+Desenvolvido em js, ts, node
