@@ -1,0 +1,30 @@
+{
+  "name": "lumi-saas",
+  "version": "1.0.0",
+  "description": "SaaS em typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiogonzagasm/lumi-saas.git"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "saas",
+    "backend",
+    "gestao"
+  ],
+  "author": "Caio Gonzaga",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/caiogonzagasm/lumi-saas/issues"
+  },
+  "homepage": "https://github.com/caiogonzagasm/lumi-saas#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
