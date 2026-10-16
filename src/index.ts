@@ -46,6 +46,23 @@ if(primeiraEmpresa) {
 
 const empresaEncontrada = empresas.find((empresaAtual) => {
     return (empresaAtual.nome === "Lumi")
+    
+});
+
+if(empresaEncontrada) {
+        console.log(empresaEncontrada.nome)
+    }
+
+
+const empresasAtivas = empresas.filter((empresaAtual) => {
+    return (empresaAtual.ativa)
 
 });
 
+console.log(empresasAtivas);
+
+const nomesEmpresas = empresas.map((empresaAtual) => {
+    return (empresaAtual.nome)
+});
+
+console.log(nomesEmpresas);
