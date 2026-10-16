@@ -33,3 +33,19 @@ function obterNomeEmpresa (empresa: Empresa): string {
 const nomeObtido = obterNomeEmpresa(empresa);
 
 console.log(nomeObtido);
+
+const empresas: Empresa[] = [empresa, outraCoisa];
+empresas.forEach((empresaAtual) => {
+console.log(empresaAtual.nome);
+});
+
+const primeiraEmpresa = empresas[0];
+if(primeiraEmpresa) {
+    console.log(primeiraEmpresa.nome);
+}
+
+const empresaEncontrada = empresas.find((empresaAtual) => {
+    return (empresaAtual.nome === "Lumi")
+
+});
+
